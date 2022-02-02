@@ -1,0 +1,149 @@
+#app {
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "arrow verified . ."
+    "header header header header"
+    ;
+  }
+  
+  #arrow {
+    grid-area: arrow;
+    text-align:left;
+  }
+  
+  #verified {
+    grid-area: verified;
+    text-align:left;
+    height: auto; 
+    width: auto; 
+  }
+  
+  #header {
+    grid-area: header;
+    text-align:left;
+  }
+
+#app2 {
+    height:auto;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "avatar avatar threedots follow"
+    "verified2 . . ."
+    "blurb blurb blurb blurb"
+    "following . followers ."
+    ;
+  }
+  
+  #avatar {
+    grid-area: avatar;
+    text-align:left;
+  }
+  
+  #threedots {
+    grid-area: threedots;
+    text-align:left;
+  }
+  
+  #follow {
+    grid-area: follow;
+    text-align:left;
+  }
+
+  #verified2 {
+    grid-area: verified2;
+    text-align:left;
+    height: auto; 
+    width: auto; 
+    
+  }
+  
+  #blurb {
+    grid-area: blurb;
+    text-align:left;
+  }
+  
+  #following {
+    grid-area: following;
+    text-align:left;
+  }
+
+  #followers {
+    grid-area: followers;
+    text-align:left;
+  }
+
+#app3 {
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "tweets replies media likes"
+    "tweet tweet tweet tweet"
+    "home search bell dm"
+    ;
+  }  
+  #tweets {
+    grid-area: tweets;
+    text-align:left;
+  }
+  
+  #replies {
+    grid-area: replies;
+    text-align:left;
+  }
+  
+  #media {
+    grid-area: media;
+    text-align:left;
+  }
+
+  #likes {
+    grid-area: likes;
+    text-align:left;
+  }
+  
+  #tweet {
+    grid-area: tweet;
+    text-align:left;
+  }
+  
+  #home {
+    grid-area: home;
+    text-align:left;
+  }
+
+  #search {
+    grid-area: search;
+    text-align:left;
+  }
+  #bell {
+    grid-area: bell;
+    text-align:left;
+  }
+  
+  #dm {
+    grid-area: dm;
+    text-align:left;
+  }
+  
+  
+
+
