@@ -1,9 +1,11 @@
+
+
 #app {
     height: auto;
     width: auto;
-    margin: 10px;
-    padding: 10px;
-    font-size: 3em;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -37,6 +39,8 @@
     padding: 10px;
     font-size: 3em;
     display: grid;
+    resize: vertical;
+    overflow: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
@@ -73,6 +77,8 @@
   #blurb {
     grid-area: blurb;
     text-align:left;
+    resize: vertical;
+    overflow: auto;
   }
   
   #following {
@@ -92,6 +98,8 @@
     padding: 10px;
     font-size: 3em;
     display: grid;
+    resize: vertical;
+    overflow: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
